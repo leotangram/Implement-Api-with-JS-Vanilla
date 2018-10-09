@@ -13,6 +13,21 @@
         <section class="grid">
             <header class="grid__header">
                 <h2 class="grid__title">We have X movies ordered by XXXX</h2>
+                <div class="grid__controls">
+                    <div class="grid__pager pager">
+                        <button class="button pager__prev">Previous</button>
+                        <p class="pager__header">Page 1 of 10</p>
+                        <button class="button pager__next">Next</button>
+                    </div>
+                    <div class="grid__orderer">
+                        <label for="orderBy">Order By:</label>
+                        <select id="orderBy">
+                            <option value="title" selected>Title</option>
+                            <option value="year">Year</option>
+                            <option value="imdbRating">IMDB Rating</option>
+                        </select>
+                    </div>
+                </div>
             </header>
             <div class="grid__content">
                 <!-- Repeat for each movie-->
