@@ -9,9 +9,9 @@ Para realizar el ejercicio:
   - assets/css/main.css archivo para desarrollar la capa de estilos
 2. Dentro del archivo main.js, encontrará un llamado a un archivo JSON, que devuelve un arreglo con una base de datos de películas.
 3. Su objetivo debe ser implementar una interfaz con las siguientes funcionalidades:
+  - Listado de películas, listando por defecto 12 películas por página.
   - Paginador, con la posibilidad de seleccionar el número de items por página.
-  - Select con criterios de ordenamiento (alfabético, por año, por género, por rating en IMDB)
-
-La interfaz debe lucir gráficamente como en la siguiente imagen:
+  - Select con criterios de ordenamiento (alfabético, por año, por género, por rating en IMDB).
+  - Diseño responsive.
 
 
